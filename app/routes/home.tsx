@@ -1,5 +1,10 @@
+import { Button } from "~/components/ui/button";
 import type { Route } from "./+types/home";
 
 export default function Home() {
-  return <h1>Hello World</h1>;
+  return (
+    <div className="flex flex-col items-center justify-center min-h-svh">
+      <Button>Click me</Button>
+    </div>
+  );
 }
